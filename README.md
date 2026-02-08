@@ -2,6 +2,9 @@
 
 Este proyecto analiza la eficiencia de las máquinas en una planta siderúrgica utilizando indicadores de **OEE (Overall Equipment Effectiveness)**.
 
+## 📊 Origen de los Datos
+Para este proyecto, como no tengo acceso a la base de datos real de una siderúrgica, generé un dataset sintético con Python para poder trabajar. Sin embargo, incluí un archivo SQL con la consulta que utilizaría en una planta real para extraer esos mismos datos. Esto permite que el modelo de análisis sea escalable a un entorno industrial real.
+
 ## 🚀 Objetivo del Proyecto
 Identificar cuellos de botella en la producción de acero, diferenciando entre problemas de **Mantenimiento** (Disponibilidad) y problemas de **Proceso** (Calidad).
 
